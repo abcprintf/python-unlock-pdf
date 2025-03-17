@@ -20,3 +20,13 @@ jupyter lab
 // run the script
 python unlock_pdf.py locked.pdf unlocked.pdf password
 ```
+
+### Testing
+```bash
+tox
+```
+
+### uploade to pypi
+```bash
+twine upload dist/*          
+```
