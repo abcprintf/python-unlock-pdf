@@ -26,7 +26,20 @@ python unlock_pdf.py locked.pdf unlocked.pdf password
 tox
 ```
 
+### Build
+```bash
+python setup.py sdist bdist_wheel
+
+// check the build
+twine check dist/*
+
+// install the package
+pip install dist/eservice_unlock_pdf-0.1.0-py3-none-any.whl
+```
+
 ### uploade to pypi
 ```bash
+pip install twine
+
 twine upload dist/*          
 ```
