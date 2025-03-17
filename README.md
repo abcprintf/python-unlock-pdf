@@ -14,4 +14,7 @@ pip install -r requirements.txt
 ### Usage
 ```bash
 jupyter lab
+
+// run the script
+python unlock_pdf.py locked.pdf unlocked.pdf password
 ```
